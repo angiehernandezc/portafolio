@@ -10,7 +10,7 @@ inputs.forEach (input => {
 
 const formulario = document.querySelector(".formulario");
 const boton = document.querySelector(".enviar");
-btn.disabled = true;
+boton.disabled = true;
 
 formulario.addEventListener("input",() => {
     boton.disabled = !formulario.checkValidity();
