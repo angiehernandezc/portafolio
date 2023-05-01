@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/angie-cano.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/presentacion.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <nav class="nav">
+            <input type="checkbox" name="" id="nav__checkbox" class="nav__checkbox" />
+            <label for="nav__checkbox" class="nav__toggle">
+                <svg class="menu" viewBox="0 0 448 512" width="100" title="bars">
+                    <path
+                        d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+                </svg>
+                <svg class="close" viewBox="0 0 384 512" width="100" title="times">
+                    <path
+                        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+                </svg>
+            </label>
+            <ul class="nav__menu">
+                <li class="menu__logo"><img src="assets/img/logo/logo.svg" alt="Logo Angie Hernandez" /></li>
+                <li><a class="menu__link" href="#presentacion">Sobre mí</a></li>
+                <li><a class="menu__link" href="#skills">Skills</a></li>
+                <li><a class="menu__link" href="#hobbies">Hobbies</a></li>
+                <li><a class="menu__link" href="#formacion">Formación</a></li>
+                <li><a class="menu__link" href="#proyectos">Proyectos</a></li>
+                <li class="menu__correo"><a class="menu__link" href="#contacto">angiehernandez.tech@gmail.com</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__imagen">
+                    <img src="/assets/img/Angie-Hernandez-CO.png" alt="Foto de Angie Hernandez">
+                </div>
+                <div class="hero__info">
+                    <h2 class="hero__saludo">Hola!</h2>
+                    <h1 class="hero__titulo">
+                        <span class="profesiones"></span>
+                    </h1>
+                    <div class="hero__titulo" id="cadenas-texto">
+                        <p>Yo soy <i class="profesion">Angie Hernández Cano</i></p>
+                        <p>Yo soy <i class="profesion">Desarrolladora Web</i></p>
+                        <p>Yo soy <i class="profesion">Tnlga. Biomédica</i></p>
+                        <p>Yo soy <i class="profesion">Prof. Marketing Digital</i> </p>
+                        <p>Yo soy <i class="profesion">& Comercio electrónico</i></p>
+                    </div>
+                    <h3 class="hero__descripcion">"Desarrollando soluciones con un toque humano y creativo"</h3>
+                    <div class="hero__redes">
+                        <a href="https://github.com/hernandezangie" class="red" target="_blank">
+                            <img src="assets/icons/github.svg" alt="Visita mi red social github">
+                        </a>
+                        <a href="https://www.linkedin.com/in/hernandez-angie/" class="red" target="_blank">
+                            <img src="assets/icons/linkedin.svg" alt="Visita mi red social linkedin">
+                        </a>
+                        <a href="assets/HV-DesarrolladoraWeb-AngieHernandez.pdf" class="red" target="_blank">
+                            <img src="assets/icons/cv-desarrollador.svg" alt="Acá encuentras mi hoja de vida">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="presentacion" id="presentacion">
+            <h3 class="presentacion__titulo">Sobre mi</h3>
+            <p class="presentacion__texto">Mi nombre es Angie Hernández, soy colombiana, tengo 28 años y soy mamá de dos perritos Kira y Bruno 🐶. </p>
+            <p class="presentacion__texto">Si tuviera que definirme y que alguien más lo hiciera estas serían las
+                palabras: Resiliente 🦋, disciplinada 🗻 y creativa 🎨 en el viaje de vida.</p>
+            <p class="presentacion__texto">Soy tecnóloga en mantenimiento de equipos biomédicos con experiencia de 7
+                años, actualmente me desempeño en marketing digital modalidad remoto y estoy en ONE Oracle Next
+                Education estudiando desarrollo web, fui inspirada por mi mamá y abuelita materna a perseguir mis sueños
+                y no rendirme ante las dificultades, por eso soy curiosa, creo la solución y construyó caminos.</p>
+            <p class="presentacion__texto">Estoy en constante aprendizaje y para mí es un reto personal crecer y ayudar
+                a crecer a quienes me rodean, incluyendo las empresas, se convierten en familia.</p>
+            <p class="presentacion__texto">Si estás interesado en conocer más sobre mis habilidades y experiencia, ¡no
+                dudes en seguir este tour! <br> ¡A mí me encantaría saber de ti!</p>
+        </section>
+        <section class="skills" id="skills">
+            <h3 class="skills__titulo">Skills</h3>
+            <div class="skills__contenido">
+                <h4 class="skills__tema">Desarrollo web</h4>
+                <div class="skills__subtema">
+                    <ul class="skills__container">
+                        <li class="skills__img"><img src="assets/img/skills/html.png" alt=""></li>
+                        <li class="skills__nombre">HTML 5</li>
+                    </ul>
+                    <ul class="skills__container">
+                        <li class="skills__img"><img src="assets/img/skills/js.png" alt=""></li>
+                        <li class="skills__nombre">JavaScript</li>
+                    </ul>
+                    <ul class="skills__container">
+                        <li class="skills__img"><img src="assets/img/skills/design-system.png" alt=""></li>
+                        <li class="skills__nombre">Sistemas de Diseño</li>
+                    </ul>
+                    <ul class="skills__container">
+                        <li class="skills__img"><img src="assets/img/skills/css.png" alt=""></li>
+                        <li class="skills__nombre">CSS</li>
+                    </ul>
+                    <ul class="skills__container">
+                        <li class="skills__img"><img src="assets/img/skills/ux-ui.png" alt=""></li>
+                        <li class="skills__nombre">Diseño UX/UI</li>
+                    </ul>
+                    <ul class="skills__container">
+                        <li class="skills__img"><img src="assets/img/skills/diseno-web.png" alt=""></li>
+                        <li class="skills__nombre">Diseño Responsivo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skills__contenido">
+                <h4 class="skills__tema">Marketing digital y Tecnología en Biomédica</h4>
+                <div class="skills__subtema">
+                    <ul class="skills__container">
+                        <li class="skills__nombre1">Adm. Redes Sociales</li>
+                    </ul>
+                    <ul class="skills__container">
+                        <li class="skills__nombre1">Estrategia de Marketing</li>
+                    </ul>
+                    <ul class="skills__container">
+                        <li class="skills__nombre1">Publicidad en Línea</li>
+                    </ul>
+                    <ul class="skills__container">
+                        <li class="skills__nombre1">Gestion Tecnología biomédica</li>
+                    </ul>
+                    <ul class="skills__container">
+                        <li class="skills__nombre1">Mtto. Equipo biomedico</li>
+                    </ul>
+                    <ul class="skills__container">
+                        <li class="skills__nombre1">Manejo de Simuladores</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="hobbies" id="hobbies">
+            <h3 class="hobbies__titulo">Hobbies</h3>
+            <div class="hobbies__lista">
+                <div class="hobbies__contenido">
+                    <ul class="hobbies__container">
+                        <li class="hobbies__img"><img src="assets/img/hobbies/bailar.png" alt=""></li>
+                        <li class="hobbies__nombre">Bailar salsa</li>
+                    </ul>
+                    <ul class="hobbies__container">
+                        <li class="hobbies__img"><img src="assets/img/hobbies/musica.png" alt=""></li>
+                        <li class="hobbies__nombre">Oír música</li>
+                    </ul>
+                    <ul class="hobbies__container">
+                        <li class="hobbies__img"><img src="assets/img/hobbies/tv.png" alt=""></li>
+                        <li class="hobbies__nombre">Ver series</li>
+                    </ul>
+                    <ul class="hobbies__container">
+                        <li class="hobbies__img"><img src="assets/img/hobbies/libro.png" alt=""></li>
+                        <li class="hobbies__nombre">Leer libros</li>
+                    </ul>
+                    <ul class="hobbies__container">
+                        <li class="hobbies__img"><img src="assets/img/hobbies/gym.png" alt=""></li>
+                        <li class="hobbies__nombre">Ir al GYM</li>
+                    </ul>
+                    <ul class="hobbies__container">
+                        <li class="hobbies__img"><img src="assets/img/hobbies/tv.png" alt=""></li>
+                        <li class="hobbies__nombre">Ver películas</li>
+                    </ul>
+                </div>
+        </section>
+        <section class="formacion" id="formacion">
+            <h3 class="formacion__titulo">Formación académica</h3>
+            <div class="formaciones">
+                <div class="estudio">
+                    <img class="estudio__logo" src="assets/img/estudios/desarrollo-web-insignia.png"
+                        alt="Insignia Desarrollo Web">
+                    <h4 class="estudio__nombre">Formación Desarrollo Web</h4>
+                    <p class="estudio__anho">En curso - Alura | Oracle</p>
+                </div>
+                <div class="estudio">
+                    <img class="estudio__logo" src="assets/img/estudios/innovacion-gestion.png"
+                        alt="Imagen que representa idea">
+                    <h4 class="estudio__nombre">Formación Innovación y Gestión</h4>
+                    <p class="estudio__anho">2023 - Alura | Oracle</p>
+                </div>
+                <div class="estudio">
+                    <div class="estudio__logos">
+                        <img src="assets/img/estudios/meta-digital-marketing.png"
+                            alt="Badge de Meta Digital Marketing Associate">
+                        <img src="assets/img/estudios/google-digital-marketing-e-commerce.png"
+                            alt="Badge de Google Marketing digital y Comercio electrónico">
+                        <img src="assets/img/estudios/meta-social-media-marketing.png"
+                            alt="Badge de Meta Social Media Marketing">
+                    </div>
+                    <h4 class="estudio__nombre">Marketing Digital & E-commerce</h4>
+                    <p class="estudio__anho">2023 - Google | Meta | Coursera</p>
+                </div>
+                <div class="estudio">
+                    <img class="estudio__logo" src="assets/img/estudios/biomedica.png" alt="Imagen de equipo biomédico">
+                    <h4 class="estudio__nombre">Tecnóloga en Mtto Eq. Biomédico</h4>
+                    <p class="estudio__anho">2015 - SENA</p>
+                </div>
+            </div>
+        </section>
+        <section class="proyectos" id="proyectos">
+            <h3 class="proyectos__titulo">Proyectos</h3>
+            <div class="proyecto">
+                <img src="assets/img/proyectos/encriptador.png" alt="" class="proyecto__imagen">
+                <div class="proyecto__contenido">
+                    <h4 class="proyecto__titulo">Encriptador de texto con JavaScript</h4>
+                    <p class="proyecto__descripcion">Challenge Oracle Principiante en Programación</p>
+                    <div class="proyecto__botones">
+                        <span class="proyecto__repo"><a href="https://github.com/hernandezangie/encriptador"
+                                target="_blank"><button class="proyecto__boton--repo">Repositorio</button></a></span>
+                        <span class="proyecto__demo"><a href="https://hernandezangie.github.io/encriptador/"
+                                target="_blank"><button class="proyecto__boton--demo">Ver Demo</button></a></span>
+                    </div>
+                </div>
+                <img src="assets/img/proyectos/encriptador.png" alt="" class="proyecto__imagen">
+                <div class="proyecto__contenido">
+                    <h4 class="proyecto__titulo">Portafolio Web</h4>
+                    <p class="proyecto__descripcion">Challenge Oracle Especialización Front End
+                    </p>
+                    <div class="proyecto__botones">
+                        <span class="proyecto__repo"><a href="#"><button
+                                    class="proyecto__boton--repo">Repositorio</button></a></span>
+                        <span class="proyecto__demo"><a href="#"><button class="proyecto__boton--demo">Ver
+                                    Demo</button></a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacto" id="contacto">
+            <div class="contacto__imagen">
+                <img src="assets/img/Contacto.png" alt="imagen que representa conexión">
+            </div>
+            <div class="contacto__contenido">
+                <h3 class="contacto__titulo">Charlemos!</h3>
+                <p class="contacto__texto">¿Quieres contactarme?</p>
+                <p class="contacto__texto">Completa el siguiente formulario y me pondré en contacto lo antes posible.
+                </p>
+                <form action="index.html" class="formulario">
+                    <div class="item-container">
+                        <input class="item" type="text" name="nombre" id="nombre" placeholder="Nombre" required
+                            data-tipo="nombre" maxlength="50">
+                        <label class="item-label" for="nombre">Nombre</label>
+                        <span class="item-msj-error">Este campo no puede estar vacío</span>
+                    </div>
+                    <div class="item-container">
+                        <input class="item" type="email" name="correo" id="correo" placeholder="Correo electrónico"
+                            required data-tipo="correo">
+                        <label class="item-label" for="correo">Correo electrónico</label>
+                        <span class="item-msj-error">Este campo no es válido</span>
+                    </div>
+                    <div class="item-container">
+                        <input class="item" type="text" name="asunto" id="asunto" placeholder="Asunto" required
+                            data-tipo="asunto" maxlength="50">
+                        <label class="item-label" for="asunto">Asunto</label>
+                        <span class="item-msj-error">Este campo no puede estar vacío</span>
+                    </div>
+                    <div class="area-container">
+                        <textarea class="area" name="mensaje" cols="40" rows="5" placeholder="Mensaje" required data-tipo="mensaje" maxlength="300"></textarea>
+                        <label class="area-label" for="mensaje">Mensaje</label>
+                        <span class="area-msj-error">Este campo no puede estar vacío</span>
+                    </div>
+                    <button class="boton" type="enviar"> Enviar Mensaje </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <img src="assets/img/logo/logo-footer.svg" alt="Logo de Angie Hernandez" class="footer__imagen">
+        <p class="footer__texto">© Copyright Angie Hernández - 2023</p>
+        </img>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>

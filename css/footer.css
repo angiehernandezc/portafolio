@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__imagen {
+    height: 30px;
+}
+
+.footer__texto {
+    color: var(--rojo);
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 1000px) {
+    .footer__imagen {
+        height: 40px;
+    }
+
+    .footer__texto {
+        font-size: 1rem;
+    }
+}

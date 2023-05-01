@@ -1,0 +1,97 @@
+.hero {
+    background: var(--negro);
+}
+
+.hero__container {
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__imagen img{
+    width: 30%;
+    height: 100%;
+}
+
+.hero__info {
+    padding: 1rem 0 0 0;
+    color: var(--blanco-rosa);
+}
+
+.hero__saludo {
+    font-size: 1rem;
+}
+
+.hero__titulo {
+    font-size: 1.1rem;
+}
+
+.hero__titulo .profesion {
+    font-size: 1.2rem;
+    font-family: var(--dm-serif);
+    font-weight: 400;
+    color: var(--rojo-eyecaption);
+}
+
+.hero__descripcion{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.hero__redes {
+    padding-top: 1rem;
+}
+
+.hero__redes img {
+    padding-right: 1rem;
+}
+
+.red:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 740px) {
+    .hero__container {
+        padding: 3rem 1.5rem;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .hero__imagen img{
+        width: 85%;
+        height: 100%;
+    }
+
+    .hero__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .hero__saludo {
+        font-size: 1.563rem;
+    }
+
+    .hero__titulo {
+        font-size: 1.9rem;
+    }
+    
+    .hero__titulo .profesion{
+        font-size: 1.953rem;
+    }
+    
+    .hero__descripcion{
+        font-size: 1.5rem;
+    }
+
+    .hero__redes {
+        padding-top: 1.5rem;
+    }
+
+    .hero__redes img {
+        padding-right: 2rem;
+        scale: 110%;
+    }
+}
