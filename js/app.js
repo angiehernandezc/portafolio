@@ -7,11 +7,3 @@ inputs.forEach (input => {
         validarform(input.target);
     });
 });
-
-const formulario = document.querySelector(".formulario");
-const boton = document.querySelector(".enviar");
-boton.disabled = true;
-
-formulario.addEventListener("input",() => {
-    boton.disabled = !formulario.checkValidity();
-});
